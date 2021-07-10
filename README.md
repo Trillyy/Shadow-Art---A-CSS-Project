@@ -12,8 +12,20 @@ Fun Project to automate a small CSS box-shadow trick and create wonderful art in
 **WARNING:** This script may get very slow for very big images, plus it is not guaranteed to work with every image
 
 ## Project setup
-1. Download ShadowBoxArtCreation.py
-2. Import the module. The only function available is:
+1. Install all the project dependencies. You can do it by using this command:
+```
+python -m pip install Pillow numpy
+```
+or
+```
+pip install Pillow numpy
+```
+or
+```
+python3 -m pip install Pillow numpy
+```
+2. Download ShadowBoxArtCreation.py
+3. Import the module. The only function available is:
 ```
 generate(img, pixel)
 ```
@@ -26,3 +38,5 @@ generate(img, pixel)
 **Description:** mapping of real image pixels with box shadow visualization
 
 **Default Value:** 1 (same as the image)
+
+The generated file will be saved in the same directory as the original image
