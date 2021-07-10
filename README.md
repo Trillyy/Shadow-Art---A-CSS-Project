@@ -7,7 +7,7 @@
 
 Fun Project to automate a small CSS box-shadow trick and create wonderful art in a click
 
-**Description:** Python module to generate a class that you can assign to a div and display an image, with no actual backgrounds shown
+**Description:** Python module to generate a class that you can assign to a div and display an image, with no actual background
 
 **WARNING:** This script may get very slow for very big images, plus it is not guaranteed to work with every image
 
